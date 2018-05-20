@@ -28,7 +28,7 @@ npm run e2e
 # run all tests
 npm test
 ```
-#use plug-in(插件)
+# use plug-in(插件)
 [{
   name: element-ui,
   install: npm i element-ui -D,
