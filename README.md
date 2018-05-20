@@ -36,19 +36,19 @@ employ vue-cli porject
 
 ## use plug-in(插件)
 [{<br/>
- name: element-ui,<br/>
+ name: element-ui(前端框架),<br/>
  install: npm i element-ui -D,<br/>
  usage: (main.js),<br/>
  url: http://element-cn.eleme.io/#/zh-CN/component/installation<br/>
 },<br/>
 {<br/>
- name: normalize.css,<br/>
+ name: normalize.css(通用样式),<br/>
  install: npm i normalize.css --save-dev,<br/>
  usage: (main.js),<br/>
  url: 'please baidu'<br/>
 },<br/>
-{
- name: nprogress,<br/>
+{<br/>
+ name: nprogress(进度条),<br/>
  install: npm install --save nprogress,<br/>
  usage: (router/index.js),<br/>
  url: 'please baidu'<br/>
