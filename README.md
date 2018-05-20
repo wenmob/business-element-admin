@@ -29,7 +29,7 @@ npm run e2e
 npm test
 ```
 ## thought
-做一个后台管理系统，搭建左边的导航菜单栏及标签的指引栏，其中左边的菜单栏是通过后台角色来决定显示哪些。
+做一个后台管理系统，搭建左边的导航菜单栏及标签的指引栏，其中左边的菜单栏是通过后台角色来决定显示哪些。而且刷新页面保持左边菜单的状态的方法，是舍弃vuex和cookei或localStorage，采用router.path指向状态 可以查看src/components/layer的文件
 
 ## knowledge
 vue2.0<br/>
