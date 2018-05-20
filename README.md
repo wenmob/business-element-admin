@@ -30,22 +30,22 @@ npm test
 ```
 # use plug-in(插件)
 [{<br/>
-  name: element-ui,<br/>
-  install: npm i element-ui -D,<br/>
-  usage: (main.js),<br/>
-  url: http://element-cn.eleme.io/#/zh-CN/component/installation<br/>
+ name: element-ui,<br/>
+ install: npm i element-ui -D,<br/>
+ usage: (main.js),<br/>
+ url: http://element-cn.eleme.io/#/zh-CN/component/installation<br/>
 },<br/>
 {<br/>
-  name: normalize.css,<br/>
-  install: npm i normalize.css --save-dev,<br/>
-  usage: (main.js),<br/>
-  url: 'please baidu'<br/>
+ name: normalize.css,<br/>
+ install: npm i normalize.css --save-dev,<br/>
+ usage: (main.js),<br/>
+ url: 'please baidu'<br/>
 },<br/>
 {
-  name: nprogress,<br/>
-  install: npm install --save nprogress,<br/>
-  usage: (router/index.js),<br/>
-  url: 'please baidu'<br/>
+ name: nprogress,<br/>
+ install: npm install --save nprogress,<br/>
+ usage: (router/index.js),<br/>
+ url: 'please baidu'<br/>
 }]
 
 
