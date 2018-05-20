@@ -34,7 +34,7 @@ npm test
   install: npm i element-ui -D,
   usage: (main.js),
   url: http://element-cn.eleme.io/#/zh-CN/component/installation
-},
+},<br/>
 {
   name: normalize.css,
   install: npm i normalize.css --save-dev,
