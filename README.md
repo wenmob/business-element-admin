@@ -28,7 +28,13 @@ npm run e2e
 # run all tests
 npm test
 ```
-# use plug-in(插件)
+## use thing
+node ^10.0.1<br/>
+npm ^6.00<br/>
+webpack ^3.6.0<br/>
+employ vue-cli porject
+
+## use plug-in(插件)
 [{<br/>
  name: element-ui,<br/>
  install: npm i element-ui -D,<br/>
