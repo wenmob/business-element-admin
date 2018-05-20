@@ -28,6 +28,9 @@ npm run e2e
 # run all tests
 npm test
 ```
+## thought
+做一个后台管理系统，搭建左边的导航菜单栏及标签的指引栏，其中左边的菜单栏是通过后台角色来决定显示哪些。
+
 ## knowledge
 vue2.0<br/>
 ES6<br/>
