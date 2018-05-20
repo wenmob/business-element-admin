@@ -29,23 +29,23 @@ npm run e2e
 npm test
 ```
 # use plug-in(插件)
-[{
-  name: element-ui,
-  install: npm i element-ui -D,
-  usage: (main.js),
-  url: http://element-cn.eleme.io/#/zh-CN/component/installation
+[{<br/>
+  name: element-ui,<br/>
+  install: npm i element-ui -D,<br/>
+  usage: (main.js),<br/>
+  url: http://element-cn.eleme.io/#/zh-CN/component/installation<br/>
+},<br/>
+{<br/>
+  name: normalize.css,<br/>
+  install: npm i normalize.css --save-dev,<br/>
+  usage: (main.js),<br/>
+  url: 'please baidu'<br/>
 },<br/>
 {
-  name: normalize.css,
-  install: npm i normalize.css --save-dev,
-  usage: (main.js),
-  url: 'please baidu'
-},
-{
-  name: nprogress,
-  install: npm install --save nprogress,
-  usage: (router/index.js),
-  url: 'please baidu'
+  name: nprogress,<br/>
+  install: npm install --save nprogress,<br/>
+  usage: (router/index.js),<br/>
+  url: 'please baidu'<br/>
 }]
 
 
