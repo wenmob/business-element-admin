@@ -28,6 +28,11 @@ npm run e2e
 # run all tests
 npm test
 ```
+## knowledge
+vue2.0<br/>
+ES6<br/>
+element-ui<br/>
+
 ## use thing
 node ^10.0.1<br/>
 npm ^6.00<br/>
