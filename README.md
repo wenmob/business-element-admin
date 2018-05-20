@@ -52,6 +52,18 @@ employ vue-cli porject
  install: npm install --save nprogress,<br/>
  usage: (router/index.js),<br/>
  url: 'please baidu'<br/>
+},<br/>
+{<br/>
+ name: js-cookie(cookie),<br/>
+ install: npm install js.cookie --save,<br/>
+ usage: (src/utils/auth.js),<br/>
+ url: 'please baidu'<br/>
+},<br/>
+{<br/>
+ name: axios(向后台发出请求),<br/>
+ install: npm install axios --save,<br/>
+ usage: (src/utils/request.js),<br/>
+ url: 'please baidu'<br/>
 }]
 
 
