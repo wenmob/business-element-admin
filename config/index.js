@@ -3,7 +3,7 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
-const base_url = 'http://a.yingqw.com'
+const base_url = 'http://xxx.xxx.com'
 module.exports = {
   dev: {
 
