@@ -50,6 +50,7 @@
 import Icon from 'vue-svg-icon/Icon.vue'
 import NavMenu from './NavMenu'
 import { datas } from '@/assets/js/jsondate'
+import { treeObj } from '@/utils/rolesTree'
 export default {
   data () {
     return {
@@ -72,7 +73,7 @@ export default {
   methods: {
     // 初始化
     initData () {
-      this.leftMenus = datas
+      this.createMenu()
       let name = this.leftStats
       let path = this.$route.path
       this.addTab(name, path)
@@ -126,6 +127,10 @@ export default {
       this.leftStats = name
       this.addTab(name, obj.route)
       // console.log(obj.route)
+    },
+    createMenu () {
+      let menu = treeObj.doneTreeData(datas, newArry, 0)
+      this.leftMenus = menu
     }
   },
   watch: {
