@@ -72,6 +72,12 @@ employ vue-cli porject
  install: npm install axios --save,<br/>
  usage: (src/utils/request.js),<br/>
  url: 'please baidu'<br/>
+},,<br/>
+{<br/>
+ name: qrcodejs2(生成二维码),<br/>
+ install: npm install qrcodejs2 --save,<br/>
+ usage: (src/view/Mypromotion.vue),<br/>
+ url: 'please baidu'<br/>
 }]
 
 
