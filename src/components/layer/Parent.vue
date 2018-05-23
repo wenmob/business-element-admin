@@ -129,6 +129,7 @@ export default {
       // console.log(obj.route)
     },
     createMenu () {
+      let newArry = []
       let menu = treeObj.doneTreeData(datas, newArry, 0)
       this.leftMenus = menu
     }

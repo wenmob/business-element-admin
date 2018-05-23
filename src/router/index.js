@@ -36,4 +36,12 @@ const router = new Router({
   ]
 })
 
+router.beforeEach((to, from, next) => {
+  NProgress.start()
+  next()
+})
+
+router.afterEach(() => {
+  NProgress.done() // finish progress bar
+})
 export default router
